@@ -1,0 +1,35 @@
+{
+  "name": "musicCollector",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.1.0",
+    "jest-expo": "~19.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^19.0.0",
+    "moment": "^2.18.1",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.46.4",
+    "react-native-router-flux": "^4.0.0-beta.18",
+    "react-native-sound": "^0.10.4",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "rxjs": "^5.4.3"
+  }
+}
