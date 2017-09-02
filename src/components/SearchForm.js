@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
 const SearchForm = ({searchText, onChangeText, onSearch}) => (
     <View style={styles.container}>
         <TextInput style={styles.searchBox}
-                   text={searchText}
+                   value={searchText}
                    onChangeText={onChangeText}/>
         <Button style={styles.searchButton}
                 title="Search"

@@ -18,6 +18,7 @@ class SearchContainer extends React.Component {
     render() {
         let {Actions, search} = this.props;
         let {songs, searchText, error, loading} = search;
+        console.log(searchText);
 
         let displayResults = (error) => (
             error ?
